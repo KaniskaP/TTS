@@ -30,7 +30,7 @@ class TTS(unittest.TestCase):
         for row in reader:
             rows[lineNum] = row
             lineNum += 1
-        time.sleep(2)
+        time.sleep(5)
         for inputLineNum, inputData in rows.items():
             # Click on Clear Button
             self.driver.find_element_by_xpath(".//*[@id='AutoNumber1']/tbody/tr[4]/td/input[1]").click()
