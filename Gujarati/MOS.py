@@ -21,7 +21,7 @@ class TTS(unittest.TestCase):
 
     def test_TTS(self):
         # Change Your Set Number Here
-        set = "Set 2"
+        set = "Set 1"
 
         rows = dict()
         inputFileName = set + '/Sentences/MOS/MOS'
